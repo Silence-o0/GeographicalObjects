@@ -1,4 +1,4 @@
-﻿using GeographicalObjects;
+﻿using System.Collections;
 
 abstract class GeographicalObject
 {
@@ -74,51 +74,16 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        List<River> riverList = new List<River>();
-        List<Mountain> mountainList = new List<Mountain>();
-        riverList.Add(new River("Нiл", "Друга найдовша рiчка в свiтi", 31, 30, 6, 6853));
-        riverList.Add(new River("Днiпро", "Найдовша рiчка в Українi", 55.52, 33.43, 10, 2201));
-        mountainList.Add(new Mountain("Говерла", "Найвища гора в Українi", 48.09, 24.30, 2.061));
-        mountainList.Add(new Mountain("Еверест", "Найвища гора у свiтi", 27.59, 86.55, 8.848));
+        ArrayList arrayList = new ArrayList();
+        arrayList.Add(new River("Нiл", "Друга найдовша рiчка в свiтi", 31, 30, 6, 6853));
+        arrayList.Add(new River("Днiпро", "Найдовша рiчка в Українi", 55.52, 33.43, 10, 2201));
+        arrayList.Add(new Mountain("Говерла", "Найвища гора в Українi", 48.09, 24.30, 2.061));
+        arrayList.Add(new Mountain("Еверест", "Найвища гора у свiтi", 27.59, 86.55, 8.848));
 
-        while (true)
+        foreach (GeographicalObject obj in arrayList)
         {
-            Console.WriteLine("Оберiть дiю, яку хочете здiйснити та введiть її номер:");
-            Console.WriteLine("1. Переглянути список рiчок та iнформацiю про них.");
-            Console.WriteLine("2. Переглянути список гiр та iнформацiю про них.");
-            Console.WriteLine("0. Завершити програму.");
-
-            int operationNum = 3;
-            try
-            {
-                operationNum = Convert.ToInt32(Console.ReadLine());
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("");
-            }
-
-            switch (operationNum)
-            {
-                case 1:
-                    foreach (River river in riverList)
-                    {
-                        river.displayInfo();
-                    }
-                    break;
-                case 2:
-                    foreach (Mountain mountain in mountainList)
-                    {
-                        mountain.displayInfo();
-                    }
-                    break;
-                case 0:
-                    Environment.Exit(0);
-                    break;
-                default:
-                    Console.WriteLine("ERROR");
-                    break;
-            }
+            obj.displayInfo();
         }
+        Console.ReadKey(true);
     }
 }
