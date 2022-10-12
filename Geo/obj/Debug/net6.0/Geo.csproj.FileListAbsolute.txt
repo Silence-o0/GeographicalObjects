@@ -1,0 +1,15 @@
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\bin\Debug\net6.0\Geo.exe
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\bin\Debug\net6.0\Geo.deps.json
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\bin\Debug\net6.0\Geo.runtimeconfig.json
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\bin\Debug\net6.0\Geo.dll
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\bin\Debug\net6.0\Geo.pdb
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\Geo.csproj.AssemblyReference.cache
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\Geo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\Geo.AssemblyInfoInputs.cache
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\Geo.AssemblyInfo.cs
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\Geo.csproj.CoreCompileInputs.cache
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\Geo.dll
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\refint\Geo.dll
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\Geo.pdb
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\Geo.genruntimeconfig.cache
+C:\Users\Olga.ZEN-4QTIB9V\source\repos\Geo\Geo\obj\Debug\net6.0\ref\Geo.dll

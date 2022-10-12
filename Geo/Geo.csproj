@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\Olga.ZEN-4QTIB9V\Desktop\Interface1.cs" Link="Interface1.cs" />
-    <Compile Include="C:\Users\Olga.ZEN-4QTIB9V\Desktop\Program.cs" Link="Program.cs" />
-  </ItemGroup>
-
 </Project>
